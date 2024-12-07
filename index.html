@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Endless Runner</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: lightblue;
+      flex-direction: column; /* Stack the canvas and button vertically */
+    }
+
+    canvas {
+      background-color: lightgray;
+      border: 2px solid #000;
+    }
+
+    #restartButton {
+      display: none; /* Hide the button initially */
+      font-size: 20px;
+      padding: 10px 20px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-bottom: 20px; /* Space between button and canvas */
+    }
+  </style>
+</head>
+<body>
+  <button id="restartButton">Restart</button>
+  <canvas id="gameCanvas"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
