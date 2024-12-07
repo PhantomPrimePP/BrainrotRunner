@@ -21,7 +21,7 @@ const Bonk = new Audio('assets/SoundEffects/bonk.mp3')
 const spinFrames = [];
 for (let i = 1; i <= 16; i++) {
   const img = new Image();
-  img.src = `assets/Images/SpinCatframes/SpinCatFrame${i}.png`; // Ensure your frame images are named SpinCatFrame1.png, SpinCatFrame2.png, etc.
+   img.src = `assets/Images/SpinCatFrame${i}.png`; // Ensure your frame images are named SpinCatFrame1.png, SpinCatFrame2.png, etc.
   spinFrames.push(img);
 }
 
